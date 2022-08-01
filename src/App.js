@@ -1,9 +1,13 @@
 import './App.css';
+import Dictionary from './Dictionary';
 
 function App() {
   return (
     <div className="App">
-      hello
+      <div className="container my-3">
+        <Dictionary />
+      </div>
+      <footer><a href="https://github.com/nefbao/react-dictionary-project">Open-source code</a> by Nahid Norouzi</footer>
     </div>
   );
 }
