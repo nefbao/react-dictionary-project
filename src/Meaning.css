@@ -1,0 +1,25 @@
+h3{
+    font-family: 'Lobster', cursive;
+    color: white;
+    background: black;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+h4{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+em{
+    background-color: rgb(213, 233, 237);
+}
+.Meaning{
+    margin: 25px;
+}
+.definitions{
+    margin: 25px;
+}
+p{
+    margin: 15px;
+}

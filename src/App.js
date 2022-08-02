@@ -4,7 +4,7 @@ import Dictionary from './Dictionary';
 function App() {
   return (
     <div className="App">
-      <div className="container my-3">
+      <div className="container my-5">
         <Dictionary />
       </div>
       <footer><a href="https://github.com/nefbao/react-dictionary-project">Open-source code</a> by Nahid Norouzi</footer>
