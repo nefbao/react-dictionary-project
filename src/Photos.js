@@ -6,7 +6,7 @@ export default function Photos(props){
             <section className="Photos">
                 {props.photos.map(function(photo,index){
                     return(
-                        <img key={index} src={photo.src.landscape} alt="searched word" />
+                        <img key={index} src={photo.src.tiny} alt="searched word" />
                     );
                 })}
             </section>
