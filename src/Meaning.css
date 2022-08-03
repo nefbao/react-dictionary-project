@@ -12,14 +12,17 @@ h4{
     font-weight: bold;
 }
 em{
-    background-color: rgb(213, 233, 237);
+    color: rgb(117, 117, 117);
 }
 .Meaning{
-    margin: 25px;
+    margin: 25px 0;
 }
 .definitions{
     margin: 25px;
 }
 p{
     margin: 15px;
+}
+.definitionText{
+    font-size: 20px;
 }

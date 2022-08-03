@@ -20,11 +20,13 @@ export default function Dictionary(){
     }
     return(
         <div className="Dictionary">
-            <h1 className="text-center my-5">Dictionary</h1>
-            <form onSubmit={search} className="mb-5">
-                <input type="search" placeholder="Search for a definition" onChange={changeKeword} className="form-control searchBox"/>
-                <input type="submit" value="🔍" className="btn button" />
-            </form>
+            <section>
+                <h1 className="text-center my-4">Dictionary</h1>
+                <form onSubmit={search} className="mb-5">
+                    <input type="search" placeholder="Search for a definition" onChange={changeKeword} className="form-control searchBox"/>
+                    <input type="submit" value="🔍" className="btn button" />
+                </form>
+            </section>
             <Results results={results} />
         </div>
     )

@@ -1,6 +1,9 @@
 .Synonyms{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    
 }
